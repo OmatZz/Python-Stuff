@@ -11,7 +11,7 @@ def mult(num1,num2):
 def div(num1,num2):
     div=num1/num2
     return div
-#input desired operation (en proceso multiplicacion y division)
+#input desired operation (en proceso multiplicacion y division) (falta arreglar el eso no lo hago)
 op=input("Hola, soy una calculadora owo, que operacion deseas realizar (suma o resta): ")
 if op!='suma'or'resta':
     print('Eso no lo hago ono!')
