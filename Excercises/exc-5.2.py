@@ -24,7 +24,6 @@ while True:
     if fnum < smallest :
         smallest = fnum
     count = count + 1
-    count = count + 1
     sum = sum + fnum
 
 print('Maximum',largest)
