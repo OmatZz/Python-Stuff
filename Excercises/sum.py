@@ -9,7 +9,7 @@ ftext = open(fhandle)
 numlst = list()
 for line in ftext :
     line.rstrip()
-    y = re.findall('[0-9]+' , line) #search for any numbers
+    y = re.findall(' <span class="comments">[0-9]+' , line) #search for any numbers
     for val in y :
         number = int(val)
         numlst.append(number)
